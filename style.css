@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+section{
+    padding-bottom:150px;
+    height: 500px;
+}
+section.welcome-area{
+    background-image: url(images/top.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size:40px;
+}
+span{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.highlight{
+    color: orange;
+}
+div.half{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+div.half img{
+    width:100%;
+}
+div p{
+    color: gray;
+    font-size: 20px;
+}
+div a.hire{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+div a.hire:hover{
+    background-image: linear-gradient(45deg, gray, white);
+    color: black;
+}
+div a.profile{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, gray, white, red);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+div a.profile:hover{
+    background-image: linear-gradient(45deg, rgb(60, 219, 60), white, rgb(82, 82, 223));
+    color: red;
+}
+section.dream-area{
+    background-image: url(images/middle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section.exprience-area{
+    background-image: url(images/third.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow{
+    box-shadow: 10px 10px 40px rgb(163, 66, 66);
+    background-color: white;
+    border-radius: 10px;
+    height: 85%;
+}
+div#first{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(201, 20, 20), rgb(57, 231, 51));
+    border-image-slice: 1;
+}
+div#second{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(1, 69, 255), #7ddf2cdc);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
